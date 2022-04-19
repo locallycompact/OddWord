@@ -1,0 +1,42 @@
+OddWord - Release History
+
+release-1.0.2.0 - 2018.04.11
+
+  * Added FiniteBitsBase to support FiniteBits atop non-finite base types.
+  * Added explicit Typeable instances.
+  * Removed Cabal flag for type-level literals in favour of always enabling.
+  * Fixed performance impact of using type-level literals.
+  * Fixed undefined behaviour in test suite.
+  * Changed minimum supported GHC version to 7.10 (base 4.8).
+  * Changed test suite to use hspec.
+
+release-1.0.1.1 - 2018.04.05
+
+  * Added criterion benchmark
+  * Renamed NEWS file to CHANGELOG.
+  * Relaxed QuickCheck version constraint.
+
+release-1.0.1.0 - 2015.10.25
+
+  * Added optional support for GHC type-level literals.
+  * Added FiniteBits instance.
+  * Added more test coverage.
+  * Fixed bug in toEnum function and extended test suite. (Thanks to Pasqualino
+    "Titto" Assini)
+  * Fixed warnings when compiling test suite with base-4.7 (GHC 7.8).
+  * Relaxed QuickCheck version constraint.
+
+release-1.0.0.2 - 2013.05.14
+
+  * Fixed misdefinition of type synonyms for Word10, Word12, and Word14,
+    and extended test suite. (Thanks to Benno Fünfstück)
+
+release-1.0.0.1 - 2012.12.30
+
+  * Fixed compilation with base-4.6 (GHC 7.6).
+  * Fixed bug in Read instance and extended test suite. (Thanks to Tikhon
+    Jelvis)
+
+release-1.0.0 - 2011.07.21
+
+  * Initial release.
