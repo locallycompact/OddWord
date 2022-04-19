@@ -1,6 +1,6 @@
 {-# LANGUAGE Haskell2010, ScopedTypeVariables, CPP,
              DeriveDataTypeable, DataKinds, KindSignatures,
-             TypeFamilies, TypeOperators, UndecidableInstances #-}
+             TypeFamilies, TypeOperators, UndecidableInstances, FlexibleContexts #-}
 
 module Data.Word.Odd (
     -- * Odd Word Wrapper
